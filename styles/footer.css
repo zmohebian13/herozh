@@ -1,0 +1,143 @@
+.footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #292a30;
+  color: #fff;
+}
+
+.footer-container {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+
+.footer-introduction {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.footer-introduction h5,
+.footer-cast h5,
+.footer-menu h5,
+.footer-social-media h5 {
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.footer-introduction h5::after,
+.footer-cast h5::after,
+.footer-menu h5::after,
+.footer-social-media h5::after {
+  width: 5px;
+  height: 5px;
+  background-color: #ffb02d;
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  right: -1.5rem;
+  z-index: 1;
+  content: "";
+  border-radius: 2px;
+}
+
+.footer-introduction h5::before,
+.footer-cast h5::before,
+.footer-menu h5::before,
+.footer-social-media h5::before {
+  width: 13px;
+  height: 5px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  right: -3rem;
+  z-index: 1;
+  content: "";
+  border-radius: 2px;
+}
+
+.footer-introduction p,
+.footer-menu li,
+.footer-cast li,
+.footer-social-list-item i {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-introduction-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.footer-introduction-address,
+.footer-introduction-phone,
+.footer-introduction-gmail {
+  display: flex;
+  align-items: center;
+}
+
+.footer-introduction-address i,
+.footer-introduction-phone i,
+.footer-introduction-gmail i {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.footer-cast-list,
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1.4rem;
+  padding-right: 1rem;
+}
+
+.footer-cast-list li,
+.footer-menu-list li,
+.footer-social-list li {
+  transition: all 400ms ease;
+  font-size: 15px;
+}
+
+.footer-cast-list li:hover,
+.footer-menu-list li:hover,
+.footer-social-list li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.footer-social-list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 1.4rem;
+}
+.footer-social-list-item a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footer-social-list-item i {
+  font-size: 1.3rem;
+}
+
+.footer-copy-right {
+  position: absolute;
+  top: 90%;
+  right: 45%;
+}

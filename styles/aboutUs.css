@@ -1,0 +1,35 @@
+.about-us {
+    width: 100%;
+    height: 50vh;
+}
+
+.about-us-container {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 7rem;
+}
+
+.about-us-container-right img {
+    width: 70%;
+    height: 100%;
+    flex: 2;
+    transition: all 400ms ease;
+}
+
+.about-us-container-right img:hover {
+    transform: translateY(-10px);
+}
+
+.about-us-container-left {
+    flex: 1;
+    margin-right: -10rem;
+}
+
+.about-us-container-left p {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 2rem;
+}

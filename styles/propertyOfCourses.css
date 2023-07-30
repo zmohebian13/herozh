@@ -1,0 +1,62 @@
+@import "./variables.css";
+
+.property-of-courses {
+  width: 100%;
+  padding: 7.5rem 0;
+  height: 45rem;
+}
+
+.property-container {
+  width: 85%;
+}
+
+.property-of-courses-title h3 {
+  margin-bottom: 20px;
+}
+
+.property-of-courses-title p {
+  color: gray;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+.property-of-courses-right {
+  height: 30rem;
+}
+.property-of-courses-left {
+  width: 30%;
+  height: 30rem;
+  transition: all 400ms ease;
+  overflow: hidden;
+  margin-right: 100px;
+}
+
+.property-of-courses-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.property-of-courses-left:hover {
+    transform: translateY(-20px);
+}
+
+.property-of-courses-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 30px;
+}
+
+.property-of-courses-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.property-of-courses-item i {
+  font-size: 3.5rem;
+  color: var(--yellow);
+}

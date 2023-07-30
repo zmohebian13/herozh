@@ -1,0 +1,100 @@
+@import url(./variables.css);
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+
+.new-courses {
+  width: 100%;
+  height: auto;
+  background-color: var(--white);
+  padding: 8rem 0;
+}
+
+.u-container,
+.new-courses-swiper {
+  width: 85%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.new-courses-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.new-courses-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-courses-title h2 {
+  font-size: 2rem;
+}
+.new-courses-title p {
+  font-size: 1rem;
+  color: var(--gray);
+}
+
+/* Swiper Slides Style */
+
+.swiper {
+  width: 100%;
+  height: 450px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  box-shadow: 0 0 10px rgba(51, 51, 51, 0.15);
+  background-color: #fff;
+  border-radius: 30px;
+  width: 40%;
+  height: 100%;
+  padding: 0 1rem 2rem;
+}
+
+.swiper-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem 0;
+}
+
+.swiper-card-image {
+  width: 50%;
+  border-radius: 30px;
+  position: absolute;
+  top: -45px;
+}
+
+.swiper-slide-visible:not(.swiper-slide-active) {
+  filter: blur(5px);
+}
+
+.swiper-card-title-link {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: var(--dark);
+  cursor: pointer;
+  position: relative;
+  top: 240px;
+  font-weight: 300;
+  padding: 2rem 0;
+}
+
+.swiper-card-footer {
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+  position: relative;
+  top: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  color: #848484;
+  margin-top: 10px;
+}

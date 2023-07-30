@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Practice JS</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="header">
+      <div class="u-container header-container">
+        <nav class="top-navbar">
+          <div class="top-navbar-right-content">
+            <div class="top-navbar-right-item">
+              <div class="top-navbar-item-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div class="top-navbar-right-info">
+                <p class="top-navbar-right-text">تماس پشتیبانی</p>
+                <span class="top-navbar-right-subtext">09901394741</span>
+              </div>
+            </div>
+            <div class="top-navbar-right-item">
+              <i class="bi bi-envelope-fill"></i>
+              <div class="top-navbar-right-info">
+                <p class="top-navbar-right-text">پشتیبانی ایمیل</p>
+                <span class="top-navbar-right-subtext"
+                  >mehdiilkhaninasab7@gmail.com
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="top-navbar-left-content">
+            <a href="#" class="top-navbar-left-link">بلاگ</a>
+            <a href="#" class="top-navbar-left-link">فروشگاه</a>
+          </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/images/logo-1.png" alt="" />
+            </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >صفحه اصلی</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  دوره ها
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">چند رسانه ای</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">زبان خارجی</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">سبک زندگی </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">طراحی</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">فناوری اطلاعات </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">کسب و کار</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  صفحات
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">بلاگ</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">دوره ها</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">محصولات </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">مقالات</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="header-menu-left-basket__icon">
+                <i class="bi bi-bag-fill header-menu-left-basket-icon"></i>
+                <span>0</span>
+              </div>
+              <div class="header-menu-login">
+                <p class="login-text">ورود / ثبت نام</p>
+              </div>
+
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  جستجو
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="landing">
+          <div class="landing-right">
+            <img src="./assets/images/banner-img-2-1.png" alt="" />
+          </div>
+          <div class="landing-left">
+            <div class="landing-left-text">
+              <p class="landing-left-title">
+                دوره های آموزشی برای آینده شغلی موفق شما
+              </p>
+              <h3 class="landing-left-main-title">
+                با ما همیشه در اوج باشید ...
+              </h3>
+              <p class="landing-left-subtitle">
+                تیم آموزشی تشکیل شده از زبده ترین اساتید
+              </p>
+              <form action="#" class="landing-left-form">
+                <input type="text" placeholder="چی میخوای یاد بگیری؟؟" />
+                <button>جستجو</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start New Courses Section-->
+    <div class="new-courses">
+      <div class="u-container new-courses-container">
+        <div class="new-courses-box">
+          <div class="new-courses-title">
+            <h2>جدیدترین دوره های آکادمی هروژ</h2>
+            <p>آینده شغلی خود را با داشتن تخصص تضمین کنید</p>
+          </div>
+          <div class="new-courses-swiper">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-card">
+                    <img
+                      class="swiper-card-image"
+                      src="./assets/images/website-speed-1-500x500.png"
+                      alt=""
+                    />
+
+                    <h3 class="swiper-card-title">
+                      <a href="#" class="swiper-card-title-link">
+                        دوره آموزش افزایش سرعت سایت
+                      </a>
+                    </h3>
+                    <div class="swiper-card-footer">
+                      <div class="swiper-card-footer-right">
+                        <i class="bi bi-people-fill"></i>
+                        <span>1</span>
+                      </div>
+                      <div class="swiper-card-footer-left">
+                        <p>
+                          <span>39,000</span>
+                          <span>تومان</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-card">
+                    <img
+                      class="swiper-card-image"
+                      src="./assets/images/email-marketing-500x500.jpg"
+                      alt=""
+                    />
+
+                    <h3 class="swiper-card-title">
+                      <a href="#" class="swiper-card-title-link">
+                        آموزش ایمیل مارکتینگ
+                      </a>
+                    </h3>
+                    <div class="swiper-card-footer">
+                      <div class="swiper-card-footer-right">
+                        <i class="bi bi-people-fill"></i>
+                        <span>1</span>
+                      </div>
+                      <div class="swiper-card-footer-left">
+                        <p>
+                          <span>39,000</span>
+                          <span>تومان</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-card">
+                    <img
+                      class="swiper-card-image"
+                      src="./assets/images/google-search-console-1-500x500.png"
+                      alt=""
+                    />
+
+                    <h3 class="swiper-card-title">
+                      <a href="#" class="swiper-card-title-link">
+                        آموزش کامل سرچ کنسول
+                      </a>
+                    </h3>
+                    <div class="swiper-card-footer">
+                      <div class="swiper-card-footer-right">
+                        <i class="bi bi-people-fill"></i>
+                        <span>1</span>
+                      </div>
+                      <div class="swiper-card-footer-left">
+                        <p>
+                          <span>39,000</span>
+                          <span>تومان</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-card">
+                    <img
+                      class="swiper-card-image"
+                      src="./assets/images/website-speed-1-500x500.png"
+                      alt=""
+                    />
+
+                    <h3 class="swiper-card-title">
+                      <a href="#" class="swiper-card-title-link">
+                        دوره آموزش افزایش سرعت سایت
+                      </a>
+                    </h3>
+                    <div class="swiper-card-footer">
+                      <div class="swiper-card-footer-right">
+                        <i class="bi bi-people-fill"></i>
+                        <span>1</span>
+                      </div>
+                      <div class="swiper-card-footer-left">
+                        <p>
+                          <span>39,000</span>
+                          <span>تومان</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-card">
+                    <img
+                      class="swiper-card-image"
+                      src="./assets/images/google-analytics-1-500x500.png"
+                      alt=""
+                    />
+
+                    <h3 class="swiper-card-title">
+                      <a href="#" class="swiper-card-title-link">
+                        دوره آموزش گوگل انالیتیکس
+                      </a>
+                    </h3>
+                    <div class="swiper-card-footer">
+                      <div class="swiper-card-footer-right">
+                        <i class="bi bi-people-fill"></i>
+                        <span>1</span>
+                      </div>
+                      <div class="swiper-card-footer-left">
+                        <p>
+                          <span>39,000</span>
+                          <span>تومان</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End New Courses Section-->
+
+    <!-- Start New Courses Section-->
+    <div class="introduction-course">
+      <div class="u-container">
+        <div class="introduction-course-container">
+          <div class="col-lg-6 col-md-12 introduction-course-right">
+            <img
+              src="./assets/images/golden-webmasters.png"
+              alt=""
+              class="introduction-course-right-image"
+            />
+          </div>
+          <div class="col-lg-6 col-md-12 introduction-course-left">
+            <h3 class="introduction-course-left-title">
+              دوره‌ی جامع غیرحضوری صفر تا صد ارزهای دیجیتال
+            </h3>
+            <div class="introduction-course-left-ticket">
+              <svg class="svg svg--full">
+                <use xlink:href="#svg_price-ticket">
+                  <svg id="svg_price-ticket" viewBox="0 0 462 103.7">
+                    <g id="Group_5101" transform="translate(-11249.401 1012)">
+                      <path
+                        d="M11709.9-971.2h1.4v-36.9c0-2.2-1.8-4-4-4h-454c-2.2 0-4 1.8-4 4v36.8h1c5.9.2 10.7 5.1 10.7 11s-4.7 10.8-10.7 11h-1v36.9c0 2.2 1.8 4 4 4h454c2.2 0 4-1.8 4-4v-37l-1.1.1h-.4c-6.1 0-11-4.9-11-11 .1-5.9 5.1-10.9 11.1-10.9zm-13 11c0 7 5.6 12.7 12.5 13v34.9c0 1.1-.9 2-2 2h-454c-1.1 0-2-.9-2-2v-34.9c6.5-.7 11.7-6.3 11.6-12.9 0-6.7-5.1-12.3-11.6-12.9v-34.9c0-1.1.9-2 2-2h454c1.1 0 2 .9 2 2v34.8c-6.9.2-12.5 5.9-12.5 12.9z"
+                      ></path>
+                      <path
+                        d="M11479.9-927.7c-.6 0-1-.4-1-1v-9.1c0-.6.4-1 1-1s1 .4 1 1v9.1c0 .6-.4 1-1 1zm0-18.1c-.6 0-1-.4-1-1v-9.1c0-.6.4-1 1-1s1 .4 1 1v9.1c0 .5-.4 1-1 1zm0-18.1c-.6 0-1-.4-1-1v-9.1c0-.6.4-1 1-1s1 .4 1 1v9.1c0 .5-.4 1-1 1zm0-18.2c-.6 0-1-.4-1-1v-9.1c0-.6.4-1 1-1s1 .4 1 1v9.1c0 .6-.4 1-1 1z"
+                      ></path>
+                    </g>
+                  </svg>
+                </use>
+              </svg>
+              <div class="introduction-course-left-ticket-right-numbers">
+                <p>219 فروش</p>
+              </div>
+              <div class="introduction-course-left-ticket-left-numbers">
+                <p>119 هزار تومن</p>
+              </div>
+            </div>
+
+            <div class="introduction-course-left-buy">
+              <i class="bi bi-eye-fill"></i>
+              <a class="introduction-course-left-buy-link"
+                >در دوره شرکت میکنم</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End New Courses Section-->
+
+    <!-- Start Property of courses -->
+    <div class="property-of-courses">
+      <div class="u-container property-container">
+        <div class="row">
+          <div class="col-7 property-of-courses-right">
+            <div class="property-of-courses-title">
+              <h3>چرا دروه های هروژ آکادمی ؟</h3>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطر آنچنان که لازم است.لورم ایپسوم متن ساختگی با تولید
+                سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم
+                است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                مجله در ستون و سطر آنچنان که لازم است.لورم ایپسوم متن ساختگی با
+                تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که
+                لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                روزنامه و مجله در ستون و سطر آنچنان که لازم است.لورم ایپسوم متن
+                ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر
+                آنچنان که لازم است.
+              </p>
+              <div class="property-of-courses-items">
+                <div class="property-of-courses-item">
+                  <i class="bi bi-journal-check"></i>
+                  <div class="property-of-courses-item-text">
+                    <h5>برنامه آموزشی</h5>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </p>
+                  </div>
+                </div>
+                <div class="property-of-courses-item">
+                  <i class="bi bi-clipboard-check"></i>
+                  <div class="property-of-courses-item-text">
+                    <h5>برنامه آموزشی</h5>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 property-of-courses-left">
+            <img src="./assets/images/team1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Property of courses -->
+
+    <!-- Start Last Articles -->
+    <div id="particles-js">
+      <div class="last-articles">
+        <div class="last-articles-container">
+          <div class="last-articles-title">
+            <h2>آخرین مقالات وبلاگ</h2>
+            <p>با ما به روز باشید ...</p>
+          </div>
+          <div class="swiper blogSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <div class="blog-card-image">
+                    <img src="./assets/images/blog/634-540x350.jpg" alt="" />
+                  </div>
+                  <h5 class="blog-card-title">
+                    چرا باید از چت آنلاین در سایت استفاده کنیم ؟
+                  </h5>
+                  <p class="blog-card-subtitle">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                  <div class="card-blog-details">
+                    <div class="card-blog-tags">
+                      <span>سئو</span>
+                    </div>
+                    <div class="card-blog-time">
+                      <i class="bi bi-clock"></i>
+                      <span>28</span>
+                      <span>مرداد</span>
+                      <span>1401</span>
+                    </div>
+                  </div>
+                  <a href="#" class="card-blog-continue-link">ادامه مطلب ...</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <div class="blog-card-image">
+                    <img src="./assets/images/blog/602-540x350.jpg" alt="" />
+                  </div>
+                  <h5 class="blog-card-title">
+                    چرا باید از چت آنلاین در سایت استفاده کنیم ؟
+                  </h5>
+                  <p class="blog-card-subtitle">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                  <div class="card-blog-details">
+                    <div class="card-blog-tags">
+                      <span>سئو</span>
+                    </div>
+                    <div class="card-blog-time">
+                      <i class="bi bi-clock"></i>
+                      <span>28</span>
+                      <span>مرداد</span>
+                      <span>1401</span>
+                    </div>
+                  </div>
+                  <a href="#" class="card-blog-continue-link">ادامه مطلب ...</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <div class="blog-card-image">
+                    <img src="./assets/images/blog/605-540x350.jpg" alt="" />
+                  </div>
+                  <h5 class="blog-card-title">
+                    چرا باید از چت آنلاین در سایت استفاده کنیم ؟
+                  </h5>
+                  <p class="blog-card-subtitle">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                  <div class="card-blog-details">
+                    <div class="card-blog-tags">
+                      <span>سئو</span>
+                    </div>
+                    <div class="card-blog-time">
+                      <i class="bi bi-clock"></i>
+                      <span>28</span>
+                      <span>مرداد</span>
+                      <span>1401</span>
+                    </div>
+                  </div>
+                  <a href="#" class="card-blog-continue-link">ادامه مطلب ...</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <div class="blog-card-image">
+                    <img src="./assets/images/blog/660-1-540x350.jpg" alt="" />
+                  </div>
+                  <h5 class="blog-card-title">
+                    چرا باید از چت آنلاین در سایت استفاده کنیم ؟
+                  </h5>
+                  <p class="blog-card-subtitle">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                  <div class="card-blog-details">
+                    <div class="card-blog-tags">
+                      <span>سئو</span>
+                    </div>
+                    <div class="card-blog-time">
+                      <i class="bi bi-clock"></i>
+                      <span>28</span>
+                      <span>مرداد</span>
+                      <span>1401</span>
+                    </div>
+                  </div>
+                  <a href="#" class="card-blog-continue-link">ادامه مطلب ...</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <div class="blog-card-image">
+                    <img src="./assets/images/blog/663-540x350.jpg" alt="" />
+                  </div>
+                  <h5 class="blog-card-title">
+                    چرا باید از چت آنلاین در سایت استفاده کنیم ؟
+                  </h5>
+                  <p class="blog-card-subtitle">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                  <div class="card-blog-details">
+                    <div class="card-blog-tags">
+                      <span>سئو</span>
+                    </div>
+                    <div class="card-blog-time">
+                      <i class="bi bi-clock"></i>
+                      <span>28</span>
+                      <span>مرداد</span>
+                      <span>1401</span>
+                    </div>
+                  </div>
+                  <a href="#" class="card-blog-continue-link">ادامه مطلب ...</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Last Articles -->
+
+    <!-- Start About Us -->
+    <section class="about-us">
+      <div class="about-us-container">
+        <div class="about-us-container-right">
+          <img src="./assets/images/700-700-2.jpg" alt="" />
+        </div>
+        <div class="about-us-container-left">
+          <p>
+            موسسه‌ی آموزشی هروژ آکادمی از سال ۱۳۹۰ فعالیت خود را در زمینه‌ی
+            آموزش تخصصی راه‌اندازی کسب‌و‌کار اینترنتی و علوم مدرن مانندزبان‌های
+            برنامه‌نویسی تحت وب و تخصص‌هایی همچون گرافیک و وردپرس، با هدف تبدیل
+            علاقه‌مندان به متخصصین آماده ورود به بازار کار به در قالب کارآفرین
+            (دارای کسب‌وکار شخصی) یا فردی که میتواند موثرتر در تیمی یا شرکتی
+            فعالیت نماید، آغاز کرد. اگر علاقه‌مند به حوزه‌ای هستید یا حس میکنید
+            در حوزه‌ای استعداد دارید با یادگیری‌های اصولی باید آن علاقه را به
+            تخصص تبدیل نمائید. دانشجویان همیارآکادمی، باتوجه به علاقه‌ی خود، و
+            سرمایه‌گذاری برروی خودشان، متخصص شده‌اند و توانسته‌اند از آن حوزه،
+            با کمک اینترنت کسب درآمد کنند، به همین دلیل هروژه آکادمی به “کارخانه
+            تبدیل علاقه‌مند به متخصص” نام گرفت.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End About Us -->
+
+    <!-- Start Footer -->
+    <section class="footer">
+      <div class="footer-container">
+        <div class="footer-wrapper">
+          <div class="footer-introduction">
+            <h5>معرفی گروه طراحی و توسعه</h5>
+            <p>
+              گروه وردپرس من از سال 1393 فعالیت خود را در زمینه طراحی و توسعه
+              نرم افزارهای تحت وب با توجه به استانداردها و متدولوژی های روز دنیا
+              و مد نظر قرار دادن ارزش ها و باورهای حرفه ای و نیز مطالعات کیفی و
+              کمی در زمینه سیستم های یکپارچه.
+            </p>
+            <div class="footer-introduction-detail">
+              <div class="footer-introduction-address">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p>تهران ، یوسف آباد ، خیابان چهلم ، پلاک 10</p>
+              </div>
+              <div class="footer-introduction-phone">
+                <i class="bi bi-phone-fill"></i>
+                <p>09901394741</p>
+              </div>
+              <div class="footer-introduction-gmail">
+                <i class="bi bi-envelope-at-fill"></i>
+                <p>mehdiilkhaninasab7@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-cast">
+            <h5>فهرست سفارشی</h5>
+            <ul class="footer-cast-list">
+              <li class="footer-cast-list-item">لیست سفارشی</li>
+              <li class="footer-cast-list-item">منوی دلخواه</li>
+              <li class="footer-cast-list-item">فروشگاه</li>
+              <li class="footer-cast-list-item">سبد خرید</li>
+            </ul>
+          </div>
+          <div class="footer-menu">
+            <h5>منوی خدمات</h5>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-list-item">بلاگ</li>
+              <li class="footer-menu-list-item">حساب کاربری من</li>
+              <li class="footer-menu-list-item">منوی دلخواه</li>
+              <li class="footer-menu-list-item">سفارشی سازی</li>
+            </ul>
+          </div>
+          <div class="footer-social-media">
+            <h5>شبکه های اجتماعی</h5>
+            <ul class="footer-social-list">
+              <li class="footer-social-list-item">
+                <a href="" class="footer-social-link">
+                  <i class="bi bi-telegram"></i>
+                </a>
+              </li>
+              <li class="footer-social-list-item">
+                <a href="" class="footer-social-link">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li class="footer-social-list-item">
+                <a href="" class="footer-social-link">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </li>
+              <li class="footer-social-list-item">
+                <a href="" class="footer-social-link">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer-copy-right">Made By Zohre Mohebian 🧑‍💻</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/blogSwiper.js"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/spa.js" type="module"></script>
+  </body>
+</html>

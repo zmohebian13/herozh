@@ -1,0 +1,10 @@
+@import './fonts.css';
+@import './variables.css';
+
+@import './header.css';
+@import './newCourses.css';
+@import './introduction-course.css';
+@import './propertyOfCourses.css';
+@import './lastArticles.css';
+@import './aboutUs.css';
+@import './footer.css';
