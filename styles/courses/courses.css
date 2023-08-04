@@ -1,0 +1,6 @@
+@import '../fonts.css';
+@import '../variables.css';
+
+@import '../courses/courses-header.css';
+@import '../courses/courses-body.css';
+@import '../footer.css';
