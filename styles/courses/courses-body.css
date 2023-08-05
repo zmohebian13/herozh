@@ -5,7 +5,39 @@
 
 .courses-container {
   width: 85%;
-  margin: 8rem auto 0;
+  margin: 0 auto;
+}
+
+.courses-container-title {
+  padding: 3rem 0 4rem;
+  font-size: 2rem;
+  position: relative;
+}
+
+.courses-container-title::before {
+  width: 13px;
+  height: 5px;
+  background-color: #ebe0e0;
+  position: absolute;
+  top: 50%;
+  margin-top: -7px;
+  right: -2.5rem;
+  z-index: 1;
+  content: "";
+  border-radius: 2px;
+}
+
+.courses-container-title::after {
+  width: 5px;
+  height: 5px;
+  background-color: #ffb02d;
+  position: absolute;
+  top: 50%;
+  margin-top: -7px;
+  right: -1rem;
+  z-index: 1;
+  content: "";
+  border-radius: 2px;
 }
 
 .courses-box-container {
