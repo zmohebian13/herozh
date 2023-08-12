@@ -1,0 +1,7 @@
+@import '../fonts.css';
+@import '../variables.css';
+
+@import '../courses/courses-header.css';
+@import '../blog/blog-body.css';
+
+@import '../footer.css';

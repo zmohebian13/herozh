@@ -18,13 +18,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Practice JS</title>
   </head>
   <body>
     <!-- Start Header -->
     <header class="header">
-      <div class="u-container header-container">
+      <div class="u-container header-container" data-aos="fade-down" data-aos-duration="2000">
         <nav class="top-navbar">
           <div class="top-navbar-right-content">
             <div class="top-navbar-right-item">
@@ -104,9 +106,9 @@
                   صفحات
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">بلاگ</a></li>
+                  <li><a class="dropdown-item" href="./blog.html">بلاگ</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">دوره ها</a>
+                    <a class="dropdown-item" href="./courses.html">دوره ها</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">محصولات </a>
@@ -142,10 +144,10 @@
         </nav>
 
         <div class="landing">
-          <div class="landing-right">
+          <div class="landing-right" data-aos="fade-left" data-aos-duration="2000">
             <img src="./assets/images/banner-img-2-1.png" alt="" />
           </div>
-          <div class="landing-left">
+          <div class="landing-left" data-aos="fade-right" data-aos-duration="2000">
             <div class="landing-left-text">
               <p class="landing-left-title">
                 دوره های آموزشی برای آینده شغلی موفق شما
@@ -168,7 +170,7 @@
     <!-- End Header -->
 
     <!-- Start New Courses Section-->
-    <div class="new-courses">
+    <div class="new-courses" data-aos="fade-up" data-aos-duration="2000">
       <div class="u-container new-courses-container">
         <div class="new-courses-box">
           <div class="new-courses-title">
@@ -325,14 +327,14 @@
     <div class="introduction-course">
       <div class="u-container">
         <div class="introduction-course-container">
-          <div class="col-lg-6 col-md-12 introduction-course-right">
+          <div class="col-lg-6 col-md-12 introduction-course-right" data-aos="fade-left" data-aos-duration="2000">
             <img
               src="./assets/images/golden-webmasters.png"
               alt=""
               class="introduction-course-right-image"
             />
           </div>
-          <div class="col-lg-6 col-md-12 introduction-course-left">
+          <div class="col-lg-6 col-md-12 introduction-course-left" data-aos="fade-right" data-aos-duration="2000">
             <h3 class="introduction-course-left-title">
               دوره‌ی جامع غیرحضوری صفر تا صد ارزهای دیجیتال
             </h3>
@@ -375,7 +377,7 @@
     <div class="property-of-courses">
       <div class="u-container property-container">
         <div class="row">
-          <div class="col-7 property-of-courses-right">
+          <div class="col-7 property-of-courses-right" data-aos="fade-left" data-aos-duration="2000">
             <div class="property-of-courses-title">
               <h3>چرا دروه های هروژ آکادمی ؟</h3>
               <p>
@@ -420,7 +422,7 @@
               </div>
             </div>
           </div>
-          <div class="col-5 property-of-courses-left">
+          <div class="col-5 property-of-courses-left" data-aos="fade-right" data-aos-duration="2000">
             <img src="./assets/images/team1.jpg" alt="" />
           </div>
         </div>
@@ -577,7 +579,7 @@
 
     <!-- Start About Us -->
     <section class="about-us">
-      <div class="about-us-container">
+      <div class="about-us-container" data-aos="zoom-out" data-aos-duration="2000">
         <div class="about-us-container-right">
           <img src="./assets/images/700-700-2.jpg" alt="" />
         </div>
@@ -687,5 +689,9 @@
     <script src="./js/app.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/spa.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
